@@ -1,0 +1,18 @@
+
+@app.get("/hello")
+async def hello():
+@app.post("/sub")
+# placing the order
+async def sub(num1: int, num2: int):
+    return num1 - num2
+
+@app.post("/mul")
+# placing the order
+async def mul(num1: int, num2: int):
+    return num1 * num2
+
+@app.post("/div")
+# placing the order
+async def div(num1: int, num2: int):
+    return num1 / num2
+
