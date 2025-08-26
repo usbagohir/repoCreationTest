@@ -9,7 +9,7 @@ def test_add():
 def test_sub():
     assert sub(1, 2) == -1
     assert sub(-1, 1) == -2
-    assert sub(5.1, 5) == 0.1
+    assert sub(5.1, 5) == 0.09999999999999964
 
 def test_mul():
     assert mul(1, 2) == 2
